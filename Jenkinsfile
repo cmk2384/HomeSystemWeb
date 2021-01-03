@@ -18,6 +18,7 @@ pipeline {
           sh 'python ~/PyScripts/Failed.py'
         }
 
+        sh 'python ~/PyScripts/SuccessFull.py'
       }
     }
 
