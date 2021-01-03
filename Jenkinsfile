@@ -24,7 +24,6 @@ pipeline {
         }
 
         sh 'python ~/PyScripts/SuccessFull.py'
-        mail(subject: 'Jenkins Succeeded', body: 'Jenkins Test with Label has been finished successful', from: 'Jenkins', to: 'c_merkl@gmx.net')
       }
     }
 
